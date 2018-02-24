@@ -34,6 +34,7 @@ Fractal Tecnologia back-end test.
 | -----------------------------------------|-----------|----------------------------------------------------- 
 |    Swagger Docs                          |   `GET`   | /v1/docs(.:format)              
 |    List authors                          |   `GET`   | /v1/authors(.:format)           
+|    List authors searching by string      |   `GET`   | /v1/authors?starts_with=<letter>(.:format)           
 |    Create author                         |   `POST`  | /v1/authors(.:format)           
 |    Read author                           |   `GET`   | /v1/authors/:id(.:format)       
 |    Update product                        |   `PATCH` | /v1/authors/:id(.:format)       
